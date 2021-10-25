@@ -26,10 +26,11 @@ struct Triangle: Shape {
 
 // MARK: - Arc
 
-struct Arc: Shape {
+struct Arc: InsettableShape {
     var startAngle: Angle
     var endAngle: Angle
     var clockWise: Bool
+    var insetAmount: CGFloat = 0
     
     func path(in rect: CGRect) -> Path {
         let rotationAdjustment = Angle.degrees(90)
@@ -37,7 +38,8 @@ struct Arc: Shape {
         let modifiedEnd = endAngle - rotationAdjustment
         
         var path = Path()
-        path.addArc(center: CGPoint(x: rect.midX, y: rect.midY), radius: rect.width / 2, startAngle: modifiedStart, endAngle: modifiedEnd, clockwise: !clockWise)
+        path.addArc(center: CGPoint(x: rect.midX, y: rect.midY), radius: rect.width / 2 - insetAmount,
+                    startAngle: modifiedStart, endAngle: modifiedEnd, clockwise: !clockWise)
         
         return path
     }
