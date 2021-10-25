@@ -43,6 +43,12 @@ struct Arc: InsettableShape {
         
         return path
     }
+    
+    func inset(by amount: CGFloat) -> some InsettableShape {
+        var arc = self
+        arc.insetAmount += amount
+        return arc
+    }
 }
 
 struct PathVsShapesView: View {
