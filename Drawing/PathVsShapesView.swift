@@ -53,9 +53,16 @@ struct Arc: InsettableShape {
 
 struct PathVsShapesView: View {
     var body: some View {
-        Arc(startAngle: .degrees(0), endAngle: .degrees(110), clockWise: true)
-            .stroke(Color.blue, lineWidth: 10)
-            .frame(width: 300, height: 300)
+        Arc(startAngle: .degrees(-90), endAngle: .degrees(90), clockWise: true)
+            .strokeBorder(Color.green, lineWidth: 40)
+        
+//        Circle()
+//            .strokeBorder(Color.green, lineWidth: 40)
+        
+//        Arc(startAngle: .degrees(0), endAngle: .degrees(110), clockWise: true)
+//            .stroke(Color.blue, lineWidth: 10)
+//            .frame(width: 300, height: 300)
+        
 //        Triangle()
 //            .fill(Color.orange)
 //            .stroke(Color.orange, style: StrokeStyle(lineWidth: 10, lineCap: .round, lineJoin: .round))
