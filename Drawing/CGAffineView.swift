@@ -35,7 +35,18 @@ struct CGAffineView: View {
     @State private var petalWidth = 100.0
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Flower(petalOffSet: petalOffSet, petalWidth: petalWidth)
+                .fill(Color.orange, style: FillStyle(eoFill: true))
+            
+            Text("OffSet")
+            Slider(value: $petalOffSet, in: -40...40)
+                .padding([.horizontal, .bottom])
+            
+            Text("Width")
+            Slider(value: $petalWidth, in: 0...100)
+                .padding(.horizontal)
+        }
     }
 }
 
