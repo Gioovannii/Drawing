@@ -13,6 +13,7 @@
 		7B9DAF732728E5D100C0D43A /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DAF722728E5D100C0D43A /* BlurView.swift */; };
 		7B9DAF752728EB7000C0D43A /* AnimableDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DAF742728EB7000C0D43A /* AnimableDataView.swift */; };
 		7B9DAF772728EF4800C0D43A /* ComplexShapesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DAF762728EF4800C0D43A /* ComplexShapesView.swift */; };
+		7B9DAF792728F3A300C0D43A /* SpirographView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9DAF782728F3A300C0D43A /* SpirographView.swift */; };
 		7BA102F0272653D1007533C5 /* DrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA102EF272653D1007533C5 /* DrawingApp.swift */; };
 		7BA102F2272653D1007533C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BA102F1272653D1007533C5 /* ContentView.swift */; };
 		7BA102F4272653D2007533C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BA102F3272653D2007533C5 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 		7B9DAF722728E5D100C0D43A /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		7B9DAF742728EB7000C0D43A /* AnimableDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimableDataView.swift; sourceTree = "<group>"; };
 		7B9DAF762728EF4800C0D43A /* ComplexShapesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplexShapesView.swift; sourceTree = "<group>"; };
+		7B9DAF782728F3A300C0D43A /* SpirographView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirographView.swift; sourceTree = "<group>"; };
 		7BA102EC272653D1007533C5 /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BA102EF272653D1007533C5 /* DrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingApp.swift; sourceTree = "<group>"; };
 		7BA102F1272653D1007533C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				7B9DAF722728E5D100C0D43A /* BlurView.swift */,
 				7B9DAF742728EB7000C0D43A /* AnimableDataView.swift */,
 				7B9DAF762728EF4800C0D43A /* ComplexShapesView.swift */,
+				7B9DAF782728F3A300C0D43A /* SpirographView.swift */,
 				7BA102F3272653D2007533C5 /* Assets.xcassets */,
 				7BA102F5272653D2007533C5 /* Preview Content */,
 			);
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B9DAF792728F3A300C0D43A /* SpirographView.swift in Sources */,
 				7BA102F2272653D1007533C5 /* ContentView.swift in Sources */,
 				7B9DAF752728EB7000C0D43A /* AnimableDataView.swift in Sources */,
 				7B9DAF732728E5D100C0D43A /* BlurView.swift in Sources */,
